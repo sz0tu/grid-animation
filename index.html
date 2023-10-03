@@ -15,7 +15,7 @@
     .App {
         font-family: sans-serif;
         text-align: center;
-        width: 100%;
+        width: 50%;
         height: 100vh;
     }
 
@@ -29,17 +29,6 @@
         overflow: hidden;
         perspective: 300px;
         background-color: #0e1416;
-    }
-    .border {
-        position: absolute;
-        top: -100px;
-        bottom: -100px;
-        right: -100px;
-        left: -100px;
-        background-color: transparent;
-        border: 300px solid black;
-        z-index: 1;
-        filter: blur(4.5rem);
     }
     .grid {
         width: 100%;
@@ -69,7 +58,6 @@
 <body>
 <div class="App">
     <div class="container">
-        <div class="border"></div>
         <div class="container">
             <div class="grid"></div>
         </div>
